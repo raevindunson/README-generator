@@ -17,6 +17,14 @@ function generateMarkdown(data) {
 
   [![Generic badge](https://img.shields.io/badge/${data.license}.svg)](https://shields.io/)
 
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
 
   ## Description
   ${data.description}
