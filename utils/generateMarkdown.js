@@ -33,6 +33,10 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
 
+  ## Questions
+  Do you have any questions?
+  Contact me on GitHub: [${data.username}](https://github.com/${data.username})
+  Email me at: ${data.email}
 `;
 }
 
