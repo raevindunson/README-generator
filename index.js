@@ -9,47 +9,47 @@ const questions = [
         return inquirer.prompt([
             {
                 type: "input",
-                name: "Title",
+                name: "title",
                 message: "What is the title of the project?",
             },
             {
                 type: "input",
-                name: "Description",
+                name: "description",
                 message: "Please describe the project",
             },
             {
                 type: "input",
-                name: "Table of Contents",
+                name: "contents",
                 message: "Please provide a table of contents",
             },
             {
                 type: "input",
-                name: "Installation",
+                name: "installation",
                 message: "Please provide instructions for installation",
             },
             {
                 type: "input",
-                name: "Usage",
+                name: "usage",
                 message: "Please describe the usage of the project",
             },
             {
                 type: "input",
-                name: "License",
+                name: "license",
                 message: "Please provide any licenses",
             },
             {
                 type: "input",
-                name: "Contributing",
-                message: "Please list any contributors",
+                name: "contributing",
+                message: "Please list any contributors and guidelines for contribution",
             },
             {
                 type: "input",
-                name: "Tests",
+                name: "tests",
                 message: "Please describe tests included, if applicable",
             },
             {
                 type: "input",
-                name: "Questions",
+                name: "questions",
                 message: "Please list instructions for asking questions",
             }
         ])
