@@ -74,3 +74,5 @@ function init() {
 
 // Function call to initialize app
 init();
+
+// RECEIVED HELP FROM  https://github.com/jpd61/README-generator
