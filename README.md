@@ -9,3 +9,6 @@ This includes
 - Licenses
 - Contributors
 - and more!
+
+
+Received some assistance from https://github.com/jpd61/README-generator
